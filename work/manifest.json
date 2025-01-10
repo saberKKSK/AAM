@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "Apex账号管理器",
+  "version": "1.0",
+  "description": "安全保存Apex Legends的账号密码 - By TOGO",
+  "author": "TOGO",
+  "permissions": [
+    "storage",
+    "clipboardWrite",
+    "notifications",
+    "tabs",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "*://*.lzt.market/*",
+    "*://*.ea.com/*",
+    "*://*.origin.com/*",
+    "*://signin.ea.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.ea.com/*",
+        "*://signin.ea.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+} 

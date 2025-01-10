@@ -1,0 +1,140 @@
+.container {
+  width: 300px;
+  padding: 15px;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.account-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  padding: 5px 10px;
+}
+
+.code-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.code-btn {
+  flex: 1;
+  background-color: #2196F3;
+}
+
+.code-btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.countdown {
+  color: #666;
+  font-size: 14px;
+}
+
+.verification-status {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.success {
+  color: #4CAF50;
+}
+
+.error {
+  color: #f44336;
+}
+
+.account-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.verify-btn {
+  background-color: #2196F3;
+  padding: 5px 10px;
+}
+
+.verify-btn:hover {
+  background-color: #1976D2;
+}
+
+.account-item {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.account-buttons button {
+  font-size: 12px;
+  padding: 4px 8px;
+}
+
+.rank-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+}
+
+.rank {
+  font-weight: bold;
+}
+
+.青铜 { color: #cd7f32; }
+.白银 { color: #c0c0c0; }
+.黄金 { color: #ffd700; }
+.铂金 { color: #e5e4e2; }
+.钻石 { color: #b9f2ff; }
+.大师 { color: #ff00ff; }
+.猎杀 { color: #ff0000; }
+
+.edit-rank-btn {
+  background-color: #ff9800;
+}
+
+.edit-rank-btn:hover {
+  background-color: #f57c00;
+}
+
+.author {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin-bottom: 15px;
+  font-style: italic;
+} 

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Apex账号管理器</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Apex账号管理器</h2>
+    <div class="author">Created by TOGO</div>
+    
+    <div class="account-form">
+      <input type="text" id="username" placeholder="用户名">
+      <input type="password" id="password" placeholder="密码">
+      <input type="email" id="email" placeholder="邮箱">
+      <input type="password" id="emailPassword" placeholder="邮箱密码">
+      <select id="rank" class="rank-select">
+        <option value="">选择段位</option>
+        <option value="青铜">青铜</option>
+        <option value="白银">白银</option>
+        <option value="黄金">黄金</option>
+        <option value="铂金">铂金</option>
+        <option value="钻石">钻石</option>
+        <option value="大师">大师</option>
+        <option value="猎杀">猎杀</option>
+      </select>
+      <input type="text" id="note" placeholder="备注（可选）">
+      <button id="saveAccount">保存账号</button>
+    </div>
+
+    <div class="accounts-list">
+      <h3>已保存的账号</h3>
+      <div id="accountsList"></div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html> 
