@@ -1,0 +1,1 @@
+一个用于管理Apex Legends账号的Chrome扩展程序。
